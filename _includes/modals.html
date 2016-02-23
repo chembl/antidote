@@ -1,0 +1,55 @@
+ <!-- Portfolio Modals -->
+ {% for post in site.posts %}
+    <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>{{ post.title }}</h2>
+                            <hr class="star-primary">
+                            <p>{{ post.content }}</p>
+
+                          {% if post.commands %}
+
+                          <div class="center-on-mobiles">
+                            <h3>{{ post.description }}</h3>
+                          </div>
+
+                          <div class="quickstart">
+                            <div class="code">
+                              <p class="title">{{ post.command_title }}</p>
+                              <div class="shell">
+                                {% for command in post.commands %}
+                                <p class="line">
+                                  <span class="path">{{ command.path | default: '~' }}</span>
+                                  <span class="prompt">{{ command.prompt | default: '$' }}$</span>
+                                  <span class="command">{{ command.command }}</span>
+                                </p>
+                                {% endfor %}
+                                {% for output in post.outputs %}
+                                <p class="line">
+                                  <span class="output"># => {{ output }}</span>
+                                </p>
+                                {% endfor %}
+                              </div>
+                            </div>
+                            <div class="clear"></div>
+                          </div>
+                          {% endif %}
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+

@@ -1,0 +1,28 @@
+---
+layout: default
+title: Installing myChEMBL using Vagrant
+modal-id: 2
+date: 2014-07-17
+img: vagrant_logo.png
+alt: Vagrant
+category: Virtualisation
+description: Get myChEMBL up and running in seconds.
+command_title: install mychembl
+commands:
+    - command: vagrant init chembl/mychembl_20_ubuntu
+    - command: vagrant up
+
+outputs:
+    - Now browse to http://localhost:8000
+
+---
+
+Using vagrant is our recommended method to get myChEMBL up and running.
+This is because it only requires executing two commands in your terminal and you don't have to care about downloading
+Virtual Machine image and configuring it.
+In order to install myChEMBL using Vagrant do the following:
+
+1. Install [Virtual Box](https://www.virtualbox.org/).
+2. Install [Vagrant](https://www.vagrantup.com/downloads.html)
+
+Now all you need to do is top open a terminal and execute two simple commands:

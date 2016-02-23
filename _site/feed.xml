@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>myChEMBL</title>
+    <description></description>
+    <link>http://chembl.github.io/mychembl/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 12 Jan 2016 19:15:28 +0000</pubDate>
+    <lastBuildDate>Tue, 12 Jan 2016 19:15:28 +0000</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>myChEMBL a virtual machine implementation of open data and cheminformatics tools</title>
+        <description></description>
+        <pubDate>Fri, 18 Jul 2014 00:00:00 +0100</pubDate>
+        <link>http://chembl.github.io/mychembl/publications/2014/07/18/pub-1/</link>
+        <guid isPermaLink="true">http://chembl.github.io/mychembl/publications/2014/07/18/pub-1/</guid>
+        
+        
+        <category>publications</category>
+        
+      </item>
+    
+      <item>
+        <title>Installing myChEMBL using Virtual Box</title>
+        <description></description>
+        <pubDate>Fri, 18 Jul 2014 00:00:00 +0100</pubDate>
+        <link>http://chembl.github.io/mychembl/virtualisation/2014/07/18/project-1/</link>
+        <guid isPermaLink="true">http://chembl.github.io/mychembl/virtualisation/2014/07/18/project-1/</guid>
+        
+        
+        <category>virtualisation</category>
+        
+      </item>
+    
+      <item>
+        <title>MyChEMBL A Virtual Platform for Distributing Cheminformatics Tools and Open Data</title>
+        <description></description>
+        <pubDate>Thu, 17 Jul 2014 00:00:00 +0100</pubDate>
+        <link>http://chembl.github.io/mychembl/publications/2014/07/17/pub-2/</link>
+        <guid isPermaLink="true">http://chembl.github.io/mychembl/publications/2014/07/17/pub-2/</guid>
+        
+        
+        <category>publications</category>
+        
+      </item>
+    
+      <item>
+        <title>Installing myChEMBL using Vagrant</title>
+        <description>Get myChEMBL up and running in seconds.</description>
+        <pubDate>Thu, 17 Jul 2014 00:00:00 +0100</pubDate>
+        <link>http://chembl.github.io/mychembl/virtualisation/2014/07/17/project-2/</link>
+        <guid isPermaLink="true">http://chembl.github.io/mychembl/virtualisation/2014/07/17/project-2/</guid>
+        
+        
+        <category>virtualisation</category>
+        
+      </item>
+    
+      <item>
+        <title>Installing myChEMBL using Docker</title>
+        <description></description>
+        <pubDate>Wed, 16 Jul 2014 00:00:00 +0100</pubDate>
+        <link>http://chembl.github.io/mychembl/virtualisation/2014/07/16/project-3/</link>
+        <guid isPermaLink="true">http://chembl.github.io/mychembl/virtualisation/2014/07/16/project-3/</guid>
+        
+        
+        <category>virtualisation</category>
+        
+      </item>
+    
+      <item>
+        <title>Ubuntu as base Operating System</title>
+        <description></description>
+        <pubDate>Tue, 15 Jul 2014 00:00:00 +0100</pubDate>
+        <link>http://chembl.github.io/mychembl/operating%20systems/2014/07/15/project-4/</link>
+        <guid isPermaLink="true">http://chembl.github.io/mychembl/operating%20systems/2014/07/15/project-4/</guid>
+        
+        
+        <category>operating systems</category>
+        
+      </item>
+    
+      <item>
+        <title>CentOS as base Operating System</title>
+        <description></description>
+        <pubDate>Mon, 14 Jul 2014 00:00:00 +0100</pubDate>
+        <link>http://chembl.github.io/mychembl/operating%20systems/2014/07/14/project-5/</link>
+        <guid isPermaLink="true">http://chembl.github.io/mychembl/operating%20systems/2014/07/14/project-5/</guid>
+        
+        
+        <category>operating systems</category>
+        
+      </item>
+    
+  </channel>
+</rss>

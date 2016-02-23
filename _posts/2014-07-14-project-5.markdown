@@ -1,0 +1,9 @@
+---
+layout: default
+title: CentOS as base Operating System
+modal-id: 5
+date: 2014-07-14
+img: centos_logo.png
+alt: CentOS
+category: Operating Systems
+---
