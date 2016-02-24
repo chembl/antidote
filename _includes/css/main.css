@@ -129,12 +129,12 @@ header .intro-text .skills {
 .navbar-default .nav>li>a:focus {
     font-size: 13px;
     font-weight: 700;
-    color: #222;
+    color: rgba(102, 92, 92, 0.7);
 }
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #f05f40;
+    color: rgba(102, 92, 92, 0.7);
 }
 
 .navbar-default .nav > li.active>a,
@@ -151,7 +151,7 @@ header .intro-text .skills {
 @media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
-        background-color: transparent;
+        background-color: #ffffff;
     }
 
     .navbar-default .navbar-header .navbar-brand {
@@ -165,17 +165,17 @@ header .intro-text .skills {
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.7);
+        color: rgba(102, 92, 92, 0.7);
     }
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #fff;
+        color: rgba(102, 92, 92, 0.7);
     }
 
     .navbar-shrink {
         border-color: rgba(34,34,34,.05);
-        background-color: #09173F;
+        background-color: #ffffff;
     }
 
     .navbar-shrink .navbar-header .navbar-brand {
@@ -189,12 +189,12 @@ header .intro-text .skills {
 
     .navbar-shrink .nav > li>a,
     .navbar-shrink .nav>li>a:focus {
-        color: #fff;
+        color: rgba(102, 92, 92, 0.7);
     }
 
     .navbar-shrink .nav > li>a:hover,
     .navbar-shrink .nav>li>a:focus:hover {
-        color: #f05f40;
+        color: rgba(102, 92, 92, 0.7);
     }
 }
 
@@ -502,3 +502,7 @@ font-size: 20px;
     margin-bottom: 15px;
 }
 
+.carousel-indicators li{
+    color: black !important;
+    border: 1px solid black;
+}
