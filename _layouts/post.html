@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="{{ site.description }}">
+    {% if site.meta_author %}<meta name="author" content="{{ site.meta_author }}">{% endif %}
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="{{ "/style.css" }}">
+    <link rel="stylesheet" href="{{ "/css/animate.min.css" }}">
+    <link rel="stylesheet" href="{{ "/css/screen.css" }}">
+
+    <!-- Google verification -->
+    {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
+
+    <!-- Bing Verification -->
+    {% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" }}">
+    <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="http://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style>
+    main p {
+        font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 15px;
+        line-height: 1.5;
+        color: #2c3e50;
+        padding-left:5%;
+        padding-right:10%;
+    }
+    </style>
+  </head>
+  <body class="parallax-demo">
+   <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="https://www.openscienceprize.org/"><img src="/img/logo.png" style="margin-top:5px;" /></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="/#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="/#install">INSTALL</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="/#about">ABOUT</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="/#screenshots">SCREENSHOTS</a>
+                    </li>
+                    <li class="page-scroll active">
+                        <a href="/open-science-prize-proposal/">PROPOSAL</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+<main>
+<!--  Parallax Section  -->
+  <div class="parallax-container">
+    <div class="parallax"><img src="/img/parallax1.png"></div>
+  </div>
+  <div class="section white">
+    <div class="row container">
+      {{ content }}
+    </div>
+  </div>
+  <div class="parallax-container">
+    <div class="parallax"><img src="/img/parallax2.png"></div>
+  </div>
+</main>
+    {% include footer.html %}
+   {% include js.html %}
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/js/materialize.js"></script>
+    <script>$('.parallax').parallax();</script>
+  </body>
+</html>

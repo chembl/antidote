@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Installing myChEMBL using Vagrant
+title: Installing myChEMBL (antidote POC) using Vagrant
 modal-id: 2
 date: 2014-07-17
 img: vagrant_logo.png

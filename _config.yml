@@ -1,9 +1,9 @@
 # Site settings
-title: myChEMBL
+title: Antidote
 email: mychembl@ebi.ac.uk
 url: http://chembl.github.io/mychembl
 description: ""
-skills: "Open Source Scalable Drug Design Platform"
+skills: "An open platform for data-driven drug discovery applications"
 meta_author: Michal Nowotka
 
 # Google webmaster tools
@@ -27,7 +27,7 @@ color:
   primary: 18bc9c #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
   secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  secondary-dark: DAE3E1 #A2122F
 
 # Footer settings
 footer:

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Installing myChEMBL using Virtual Box
+title: Installing myChEMBL (antidote POC) using Virtual Box
 modal-id: 1
 date: 2014-07-18
 img: vb_logo.png
