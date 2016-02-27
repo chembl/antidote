@@ -27,7 +27,7 @@
                   <span>{{ category | first }}</span>
                 {% endfor %}
 
-                {% for post in site.posts.['Operating Systems'] %}
+                {% for post in site.categories.['Operating Systems'] %}
                     <div class="col-sm-4 portfolio-item">
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
