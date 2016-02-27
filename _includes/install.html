@@ -23,6 +23,10 @@
                 </div>
             </div>
             <div class="row">
+                {% for category in site.categories %}
+                  <span>{{ category }}</span>span>
+                {% endfor %}
+
                 {% for post in site.posts %}
                     {% post.category %}
                     <div class="col-sm-4 portfolio-item">
