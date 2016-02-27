@@ -5,6 +5,13 @@ author: mmmnow
 permalink: /open-science-prize-proposal/
 source-id: 1ks336AbZFJNqfBRmHpft5Ks8s8ZFgSNTFbDbVo3OT0E
 published: true
+modal-id: 10
+date: 2016-02-17
+img: vb_logo.png
+alt: Virtual Box
+category: other
+description:
+
 ---
 # Antidote: An open platform for data-driven drug discovery applications
 
