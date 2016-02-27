@@ -6,7 +6,7 @@ date: 2014-07-18
 img: pub_2.png
 alt: 10.1093/bioinformatics/btt666
 link: http://bioinformatics.oxfordjournals.org/content/30/2/298.full.pdf+html
-author: Publications
+category: Publications
 
 ---
 
