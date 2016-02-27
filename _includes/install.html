@@ -24,7 +24,7 @@
             </div>
             <div class="row">
                 {% for category in site.categories %}
-                  <span>{{ category }}</span>
+                  <span>{{ category | first }}</span>
                 {% endfor %}
 
                 {% for post in site.posts %}
