@@ -8,7 +8,7 @@ published: true
 ---
 # Antidote: An open platform for data-driven drug discovery applications
 
-![drawing](/img/thumb.png)
+![drawing]({{ site.url }}/img/thumb.png)
 
 George Papadatos (GP)[^ebi], Michal Nowotka (MN)[^ebi], Nathan Brown (NB)[^icr], Greg Landrum (GL)[^t5] and Patrick Walters (PW)[^vp]
 
@@ -50,9 +50,9 @@ XX will be an open and standalone environment that will support the drug discove
 
 
 
-![drawing](/img/diagram_1.png)
+![drawing]({{ site.url }}/img/diagram_1.png)
 
-![drawing](/img/diagram_2.png)
+![drawing]({{ site.url }}/img/diagram_2.png)
 
 In more detail, the proposed system architecture will consist of ten layers, listed below:
 
