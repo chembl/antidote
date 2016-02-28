@@ -515,6 +515,7 @@ font-size: 20px;
 }
 
 .bs-example {
+    max-width:700px;
     margin-right: 0;
     margin-left: 0;
     background-color: #fff;
