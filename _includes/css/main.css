@@ -502,6 +502,10 @@ font-size: 20px;
     margin-bottom: 15px;
 }
 
+.carousel{
+    max-width:100%;
+}
+
 .carousel-indicators li{
     color: black !important;
     border: 1px solid black;
@@ -530,6 +534,7 @@ font-size: 20px;
     padding: 45px 15px 15px;
     margin: 0 -15px 15px;
     border-style: solid;
+    max-width: 80%;
 }
 
 .btn {
