@@ -508,6 +508,7 @@ font-size: 20px;
 }
 
 .carousel-indicators .active{
+    margin:0;
     width:12px;
     height:12px;
     background-color:#000
@@ -528,7 +529,6 @@ font-size: 20px;
 .bs-example {
     position: relative;
     padding: 45px 15px 15px;
-    margin: 0 -15px 15px;
     border-style: solid;
 }
 
