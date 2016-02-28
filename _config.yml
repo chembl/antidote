@@ -27,9 +27,9 @@ color:
 
 # Footer settings
 footer:
-  copyright: ChEMBL Group EMBL-EBI
+  copyright: ChEMBL Group, EMBL-EBI
   location: Cambridge, UK
-  social: Our team
+  social: Antidote team
   credits: Credits
 
 #social
@@ -38,7 +38,7 @@ github_username: chembl
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Wellcome Trust Genome Campus, Hinxton
+  - line: Wellcome Genome Campus, Hinxton
   - line: Cambridgeshire, CB10 1SD, UK
 
 # Credits content
