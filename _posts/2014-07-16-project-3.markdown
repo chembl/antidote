@@ -6,44 +6,14 @@ date: 2014-07-16
 img: docker_logo.png
 alt: Docker
 category: Virtualisation
-command_title: install mychembl
+command_title: install Antidote
 commands:
-    - command: wget http://ftp.ebi.ac.uk/pub/databases/chembl/VM/Docker/mychembl_20_ubuntu_docker.tar.gz
-    - command: gunzip mychembl_20_ubuntu_docker.tar.gz
-    - command: docker load < mychembl_20_ubuntu_docker.tar
-    - command: docker run -p 2222:22 -p 80:80 -p 9612:9612 -t -i chembl/mychembl_20_ubuntu /usr/local/bin/supervisord
-
 outputs:
-    - Now browse to http://localhost
-
 ---
 
 [Docker](https://www.docker.com/) is a new open-source project that automates the deployment of distributed applications.
-It takes advantage of some new cool features of modern Linux kernel in order to run virtual containers, avoiding the
-overhead of starting and maintaining virtual machines.
+It takes advantage of new cool features of modern Linux kernel in order to run virtual containers, thus avoiding the overhead of starting and maintaining virtual machines.
 
-In contrast to virtual machines, which emulate virtual hardware, docker containers employ the kernel of the host machine
+In contrast to virtual machines, which emulate virtual hardware, Docker containers employ the kernel of the host machine
 so they don't require or include the whole operating system. While still separated from the host, they only add a very
 thin level of abstraction.
-
-This method is only for advanced users but it gives the best performance.
-
-Please note, that the following instruction is for Linux operating system only.
-If you plan to use myChEMBL on other operating systems (such as OS X or Windows) we suggest Vagrant or Virtual Box
-methods.
-
-In order to install myChEMBL using Docker you have to:
-
-1. Install Docker. For Linux the easiest way to do this is to invoke the following command:
-
-       wget -qO- https://get.docker.com/ | sh
-
-2. Once you have docker installed in your system all you have to do is:
-
-      * Download myChEMBL image
-      * Uncompress
-      * Load the image into docker
-      * Run it
-
-   You can do it all from your terminal by executing following commands:
-
