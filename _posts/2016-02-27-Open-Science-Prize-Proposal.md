@@ -17,11 +17,15 @@ description:
 
 ![drawing]({{ site.url }}/img/thumb.png)
 
-George Papadatos[^ebi], Michal Nowotka[^ebi], Nathan Brown[^icr], Greg Landrum[^t5] and Patrick Walters[^vp]
-[^ebi]: EMBL-EBI, Hinxton, UK
-[^icr]: The Institute of Cancer Research, London, UK
-[^t5]:  T5 Informatics and KNIME, Switzerland
-[^vp]: Vertex Pharmaceuticals, Boston, US
+George Papadatos (GP)[^ebi], Michal Nowotka (MN)[^ebi], Nathan Brown (NB)[^icr], Greg Landrum (GL)[^t5] and Patrick Walters (PW)[^vp]
+
+[^ebi]: EMBL-EBI
+
+[^icr]: The Institute of Cancer Research, London
+
+[^t5]:  T5 Informatics and KNIME
+
+[^vp]: Vertex Pharmaceuticals
 
 ## Executive Summary
 
