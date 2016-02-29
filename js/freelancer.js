@@ -49,7 +49,7 @@ $(function() {
          }
      }
      if (chosen_os){
-         $('span.command').text(function(){
+         $('span.command, pre code').text(function(){
                  var ret = $(this).text();
                  ret = ret.replace('ubuntu', chosen_os);
                  ret = ret.replace('centos', chosen_os);
