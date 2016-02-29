@@ -12,19 +12,9 @@ published: true
 
 [http://chembl.github.io/antidote/](http://chembl.github.io/antidote/)
 
-**George Papadatos****1****, Micha****l**** Nowotka****1****, Nathan Brown****2****, Greg Landrum****3**** and Patrick Walters****4**
-
-1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Hinxton, UK 
-
-2 The Institute of Cancer Research (ICR), London, UK
-
-3 T5 Informatics and KNIME, Basel, Switzerland
-
-4 Vertex Pharmaceuticals, Cambridge, USA
-
 ## Executive Summary
 
-**Vision: **we propose **[Antidot**e](http://chembl.github.io/antidote/), an open source, state-of-the-art, end-to-end platform which enables the complete life cycle of compound data acquisition, curation, storage, querying, mining, dissemination and reuse for chemoinformatics and drug discovery applications. Specifically, Antidote combines *open* chemical, pharmacological and chemogenomics data and analogous in-house data with *open source* chemoinformatics and data science and mining tools, along with interactive demos, tutorials, documentation and drug discovery use-cases in a *free*, *accessible* and *intuitive* platform. We envisage that this will catalyse and facilitate i) academic drug discovery *via* easy access to standardised infrastructure, data and use-cases; ii) accessibility and dissemination of modern informatics and computational applications for data-driven drug discovery to all levels of the scientific community; iii) interactive teaching and learning of chemoinformatics and data mining concepts and applications; iv) reproducibility and sharing of research methodologies and outcomes; and v) synergy and collaborations between different institutions and domain experts outside drug discovery.
+**Vision:** we propose [Antidote](http://chembl.github.io/antidote/), an open source, state-of-the-art, end-to-end platform which enables the complete life cycle of compound data acquisition, curation, storage, querying, mining, dissemination and reuse for chemoinformatics and drug discovery applications. Specifically, Antidote combines *open* chemical, pharmacological and chemogenomics data and analogous in-house data with *open source* chemoinformatics and data science and mining tools, along with interactive demos, tutorials, documentation and drug discovery use-cases in a *free*, *accessible* and *intuitive* platform. We envisage that this will catalyse and facilitate i) academic drug discovery *via* easy access to standardised infrastructure, data and use-cases; ii) accessibility and dissemination of modern informatics and computational applications for data-driven drug discovery to all levels of the scientific community; iii) interactive teaching and learning of chemoinformatics and data mining concepts and applications; iv) reproducibility and sharing of research methodologies and outcomes; and v) synergy and collaborations between different institutions and domain experts outside drug discovery.
 
 **Implementation:** As an existing early-stage prototype, we use [myChEMBL](http://www.mdpi.com/2078-1547/5/2/334/htm), which was co-developed by members of our team at the EBI. myChEMBL is a virtual machine which hosts the [ChEMBL](https://www.ebi.ac.uk/chembl/) database and a number of data analysis tools. We plan to heavily extend and scale-up myChEMBL by combining existing open data content, open source data mining and analytics technologies, as well as user-friendly data curation and querying web platforms and applications built by members of our team. Importantly, the resulting platform will be modular, scalable and accessible via several deployment methods. 
 
