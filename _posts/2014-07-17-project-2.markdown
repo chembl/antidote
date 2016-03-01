@@ -17,12 +17,12 @@ outputs:
 
 ---
 
-Using vagrant is our recommended method to get myChEMBL up and running.
-This is because it only requires executing two commands in your terminal and you don't have to care about downloading
-Virtual Machine image and configuring it.
-In order to install myChEMBL using Vagrant do the following:
+[Vagrant](https://www.vagrantup.com/) is our recommended method to get Antidote (myChEMBL) up and running.
+It only requires executing two commands in your terminal and you don't have to care about downloading
+a Virtual Machine image and configuring it.
+In order to install Antidote (myChEMBL) using Vagrant, please follow the steps below:
 
 1. Install [Virtual Box](https://www.virtualbox.org/).
 2. Install [Vagrant](https://www.vagrantup.com/downloads.html)
 
-Now all you need to do is top open a terminal and execute two simple commands:
+Now all you need to do is to open a terminal and execute two simple commands:
