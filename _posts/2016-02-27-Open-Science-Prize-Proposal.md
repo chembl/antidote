@@ -17,17 +17,9 @@ description:
 
 ![drawing]({{ site.url }}/img/thumb.png)
 
-George Papadatos (GP)[^ebi], Michal Nowotka (MN)[^ebi], Nathan Brown (NB)[^icr], Greg Landrum (GL)[^t5] and Patrick Walters (PW)[^vp]
+**George Papadatos, Michal Nowotka, Nathan Brown, Greg Landrum and Patrick Walters**
 
-[^ebi]: EMBL-EBI
-
-[^icr]: The Institute of Cancer Research, London
-
-[^t5]:  T5 Informatics and KNIME
-
-[^vp]: Vertex Pharmaceuticals
-
-## Executive Summary
+### Executive Summary
 
 **Vision:** we propose [**Antidote**](http://chembl.github.io/antidote/), an open source, state-of-the-art, end-to-end platform which enables the complete life cycle of compound data acquisition, curation, storage, querying, mining, dissemination and reuse for chemoinformatics and drug discovery applications. Specifically, Antidote combines *open* chemical, pharmacological and chemogenomics data and analogous in-house data with *open source* chemoinformatics and data science and mining tools, along with interactive demos, tutorials, documentation and drug discovery use-cases in a *free*, *accessible* and *intuitive* platform. We envisage that this will catalyse and facilitate 
 
