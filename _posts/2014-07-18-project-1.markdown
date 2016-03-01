@@ -10,21 +10,17 @@ description:
 
 ---
 
-Installing myChEMBL using Virtual Box is the oldest and safest method that should always work.
-It can also be a bit tedious as it requires to create and configure a new virtual machine from scratch so if you want to
-save some time, you can try Vagrant method instead.
-
-In order to install myChEMBL using Virtual Box you have to:
+Installing the Antidote prototype (myChEMBL) using Virtual Box is the default method and should always work. You will need to:
 
 1. Install [Virtual Box](https://www.virtualbox.org/).
 2. Download <a href="http://ftp.ebi.ac.uk/pub/databases/chembl/VM/myChEMBL/releases/myChEMBL-20_0/Ubuntu/VirtualBox/ubuntu.vmdk.tar.gz" class="download-link">myChEMBL disk image</a>,
-   this will download latest version of myChEMBL by default, if you want to get different one, check the [archive](http://).
-   The file containing myChEMBL image is big (several gigabytes) so you may want to make sure you have a stable
+   this will download latest version of myChEMBL by default; if you want to get different one, check the [archive](http://).
+   The file containing myChEMBL image is quite large (several GBs) so you may want to make sure you have a stable
    internet connection. You may also want to use a download manager (or FTP program) in order to be able to restore the
    process in case your internet connection drops. Finally you have to know the location where the file is saved, this
-   is usually your system defined Downloads folder.
-3. Once your copy of the myChEMBL image is downloaded you have to unpack it. You can do it by double-clicking on the
-   file icon if you have archive utilities installed in your system. On Unix systems you can do it from the command line
+   is usually your system-defined Downloads folder.
+3. Once your copy of the myChEMBL image is downloaded, you have to unpack it. You can do it by double-clicking on the
+   file icon if you have the archive utilities installed in your system. On Unix systems you can do it from the command line
    by executing:
 
        tar -zxvf ubuntu.vmdk.tar.gz
@@ -37,7 +33,7 @@ In order to install myChEMBL using Virtual Box you have to:
 5. Enter a name such as mychembl, and choose Linux as the “Operating system”, and Ubuntu as the “Version”.
    ![VB select name](img/virtualbox_select_name.png){: .img-responsive }
 
-6. In the next screen set the memory to 1024 MB (or more if your host computer has more than 4GB).
+6. In the next screen, set the memory to 1024 MB (or more if your host computer has more than 4GB).
    ![VMDK memory](img/vmdk_memory.png){: .img-responsive }
 
 7. Continue to the next screen and choose “Use existing hard disk”.
