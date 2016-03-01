@@ -31,7 +31,7 @@ Docker deployment is aimed at advanced users but it has the best performance.
 Please note that the following instructiona is for the Linux operating system only.
 If you plan to use Antidote on other operating systems (such as OS X or Windows), we suggest the Vagrant or Virtual Box methods.
 
-In order to install Antidote (myChEMBL) using Docke,r you have to:
+In order to install Antidote (myChEMBL) using Docker you have to:
 
 1. Install Docker. For Linux the easiest way to do this is to invoke the following command:
 
