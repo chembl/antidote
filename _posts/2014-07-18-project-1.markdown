@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Installing myChEMBL using Virtual Box
+title: Installing Antidote using Virtual Box
 modal-id: 1
 date: 2014-07-18
 img: vb_logo.png
@@ -10,14 +10,14 @@ description:
 
 ---
 
-Installing the Antidote prototype (myChEMBL) using Virtual Box is the default method and should always work. You will need to:
+Installing the Antidote prototype (myChEMBL) using Virtual Box is the default option for most users. You will need to:
 
 1. Install [Virtual Box](https://www.virtualbox.org/).
-2. Download <a href="http://ftp.ebi.ac.uk/pub/databases/chembl/VM/myChEMBL/releases/myChEMBL-20_0/Ubuntu/VirtualBox/ubuntu.vmdk.tar.gz" class="download-link">myChEMBL disk image</a>,
-   this will download latest version of myChEMBL by default; if you want to get different one, check the [archive](http://).
-   The file containing myChEMBL image is quite large (several GBs) so you may want to make sure you have a stable
+2. Download <a href="ftp://ftp.ebi.ac.uk/pub/databases/chembl/VM/myChEMBL/releases/myChEMBL-20_0/Ubuntu/VirtualBox/ubuntu.vmdk.tar.gz" class="download-link">myChEMBL disk image</a>,
+   this will download the latest version of myChEMBL by default; if you want to get different one, check the [archive](ftp://ftp.ebi.ac.uk/pub/databases/chembl/VM/myChEMBL/releases/).
+   The file containing the myChEMBL image is quite large (several GBs), so you may want to make sure you have a stable
    internet connection. You may also want to use a download manager (or FTP program) in order to be able to restore the
-   process in case your internet connection drops. Finally you have to know the location where the file is saved, this
+   process in case your internet connection drops. Finally, you have to check the location where the file is saved, this
    is usually your system-defined Downloads folder.
 3. Once your copy of the myChEMBL image is downloaded, you have to unpack it. You can do it by double-clicking on the
    file icon if you have the archive utilities installed in your system. On Unix systems you can do it from the command line
@@ -42,5 +42,5 @@ Installing the Antidote prototype (myChEMBL) using Virtual Box is the default me
    ![VMDK disk](img/vmdk_disk.png){: .img-responsive }
 
 8. Now bootup the VM by clicking the Start (green arrow) button. Once the myChEMBL system finish booting, you can
-   navigate your browser to [http://localhost:8000](http://localhost:8000) and start using myChEMBL.
+   navigate your browser to [http://localhost:8000](http://localhost:8000) and start using it.
 
