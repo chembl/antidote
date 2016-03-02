@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Installing myChEMBL using Vagrant
+title: Installing Antidote using Vagrant
 modal-id: 2
 date: 2014-07-17
 img: vagrant_logo.png
 alt: Vagrant
 category: Virtualisation
-description: Get myChEMBL up and running in seconds.
+description: Get Antidote up and running in seconds.
 command_title: install mychembl
 commands:
     - command: vagrant init chembl/mychembl_20_ubuntu
