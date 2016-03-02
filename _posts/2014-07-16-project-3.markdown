@@ -19,28 +19,27 @@ outputs:
 ---
 
 [Docker](https://www.docker.com/) is a new open-source project that automates the deployment of distributed applications.
-It takes advantage of some new cool features of modern Linux kernel in order to run virtual containers, avoiding the
+It takes advantage of the new cool features of modern Linux kernels in order to run virtual containers, thus avoiding the
 overhead of starting and maintaining virtual machines.
 
-In contrast to virtual machines, which emulate virtual hardware, docker containers employ the kernel of the host machine
+In contrast to virtual machines, which emulate virtual hardware, Docker containers employ the kernel of the host machine
 so they don't require or include the whole operating system. While still separated from the host, they only add a very
 thin level of abstraction.
 
-This method is only for advanced users but it gives the best performance.
+Docker deployment is aimed at advanced users but it has the best performance.
 
-Please note, that the following instruction is for Linux operating system only.
-If you plan to use myChEMBL on other operating systems (such as OS X or Windows) we suggest Vagrant or Virtual Box
-methods.
+Please note that the following instructiona is for the Linux operating system only.
+If you plan to use Antidote on other operating systems (such as OS X or Windows), we suggest the Vagrant or Virtual Box methods.
 
-In order to install myChEMBL using Docker you have to:
+In order to install Antidote (myChEMBL) using Docker you have to:
 
 1. Install Docker. For Linux the easiest way to do this is to invoke the following command:
 
        wget -qO- https://get.docker.com/ | sh
 
-2. Once you have docker installed in your system all you have to do is:
+2. Once you have Docker installed in your system, all you have to do is:
 
-      * Download myChEMBL image
+      * Download the myChEMBL image
       * Uncompress
       * Load the image into docker
       * Run it
